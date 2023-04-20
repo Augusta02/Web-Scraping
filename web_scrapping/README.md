@@ -8,4 +8,4 @@ from websites and storing in a database or local machine.
 - BeautifulSoup
 - Selenium
 - Requests 
-To achieve my goals. It also important that we understand HTML tags, ids, and classes, therefore basics of HTML. They would help us target the content we are in need of. 
+To achieve my goals. It also important that we understand HTML tags, ids, and classes, therefore basics of HTML. They would help us target the content we are in need of
