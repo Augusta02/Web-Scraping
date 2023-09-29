@@ -1,4 +1,5 @@
 
+
 What is Webscraping
 How to webcrap with html, xml, json (public api, it is typically like python dictionary)
 
@@ -25,10 +26,7 @@ html. class, id, tags, etc.
 https://developer.mozilla.org/en-US/docs/Web/HTML
 
 
-Property.ng url =  https://www.propertypro.ng/property-for-rent?page=1
 
-Collect Housing data 
-- 
 
 Webscraping
 - Get URL
@@ -41,27 +39,17 @@ Webscraping
     - title
     - title_name
     - title.string
-    - find  (id, h1,h2, h3,h5,he, div, a,etc)
+    - find
     - find_all
     - get_text
-
-
-soup.find_all('h4')
-
-
-
 
 - Inspect website to collect your data
     - type of house
     - price of house
     - location
-    - description
 
 - change price from string to int type
     - df['Price'] = df['Price'].astype(str).str.replace(',', '')
-
-
-
 - unique values of location
 - extract location with split to get location
 - type of house (duplex, terrace, etc)
@@ -77,10 +65,7 @@ currency regex pattern: re.search(r'[\$|N]')
 Assignment 
 
 - Scrap 1000 rows of data from Nigeria property https://nigeriapropertycentre.com/
-    Exported to csv file
-
 - Cleaned
-
 - Answer the following questions
      - average price of homes by location
      - average price of homes by states
